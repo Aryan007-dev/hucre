@@ -9,7 +9,7 @@
 // else (#407), which is only true while every writer derives them the
 // same way. One implementation, two callers.
 
-import { quoteSheetName } from "../_refs"
+import { quoteSheetName } from "./sheet-name"
 import type { NamedRange, TableDefinition, WriteSheet } from "../_types"
 import { colToLetter } from "./worksheet-writer"
 

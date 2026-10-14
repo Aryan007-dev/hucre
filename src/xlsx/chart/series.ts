@@ -34,7 +34,7 @@ import type {
   ChartTrendline,
   WriteChartKind,
 } from "../../_types"
-import { quoteSheetName } from "../../_refs"
+import { quoteSheetName } from "../sheet-name"
 import type { XmlElement } from "../../xml/parser"
 import { xmlElement, xmlEscape, xmlSelfClose } from "../../xml/writer"
 import {
